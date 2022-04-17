@@ -1,0 +1,16 @@
+
+/* Desktop */
+
+@media (min-width: 769px) {
+    #table_mobile{
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    #table_desktop{
+        display: none;
+    }
+}

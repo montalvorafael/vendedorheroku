@@ -1,0 +1,242 @@
+.label-vendedor {
+  width: 90%;
+  font-size: 30px;
+  color: #4fd053;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .label-vendedor {
+    font-size: 25px;
+  }
+}
+
+/*Separadores*/
+.separador {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.separador > s {
+  height: 2px;
+  background: #77d353; /*Aqui se debe cambiar el color para que aparezca el de pedidos*/
+  display: inline-block;
+}
+.r-vista {
+  display: grid;
+  grid-template-columns: 5% 10% 85%;
+}
+.r-fuente-color {
+  font-size: 25px;
+  color: #77d353;
+}
+@media (max-width: 980px) and (min-width: 700px) {
+  .r-fuente-color {
+    font-size: 20px;
+  }
+
+  .r-vista {
+    display: grid;
+    grid-template-columns: 5% 15% 80%;
+  }
+}
+@media (max-width: 699px) {
+  .r-vista {
+    display: grid;
+    grid-template-columns: 5% 35% 60%;
+  }
+}
+.p-vista {
+  display: grid;
+  grid-template-columns: 5% 20% 75%;
+}
+.p-fuente-color {
+  font-size: 18px;
+  color: #47525e;
+}
+
+@media (max-width: 980px) and (min-width: 700px) {
+  .p-vista {
+    display: grid;
+    grid-template-columns: 5% 30% 65%;
+  }
+}
+@media (max-width: 699px) {
+  .p-vista {
+    display: grid;
+    grid-template-columns: 5% 50% 45%;
+  }
+}
+
+/*Navbar*/
+.name-app {
+  border: 1px solid #77d353;
+  padding: 10px 20px;
+  color: white;
+  background-color: #77d353;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.bg-ljs {
+  background-color: rgba(79, 208, 83, 0.3);
+}
+
+.btn-ljs {
+  background-color: #77d353 !important;
+  border-radius: 20px !important;
+  border: 1px solid #77d353 !important;
+  padding: 10px 20px !important;
+  font-size: 15px !important;
+}
+
+/* Desktop */
+
+@media (min-width: 769px) {
+  #_2iAdU ._R2FsI {
+    display: flex;
+    margin: 0rem;
+    margin-left: 0.3rem;
+  }
+  #_2iAdU {
+    padding: 0.3rem 0;
+    justify-content: start;
+  }
+  #_2iAdU > div {
+    padding: 0.2rem;
+  }
+
+  #_2iAdU ._2trtS > ul > li {
+    margin-right: 2rem;
+  }
+
+  #_2iAdU ._3D598 > ul > li > a,
+  #_2iAdU ._1JYcn > ul > li > a {
+    font-size: 0.9rem;
+  }
+
+  #_2iAdU ._2trtS > ul > li:hover > ._3D598 {
+    display: block;
+    width: fit-content;
+  }
+
+  :root {
+    --pcol: #63b045;
+    --scol: white;
+    --tspeed: 0.5s;
+    --base-scale: 1.1;
+    --subMenu-width: 18.25rem;
+
+    --fgrad: linear-gradient(139deg, #63b045 16%, #77d353 52%, #63b045 88%);
+    --sgrad: linear-gradient(139deg, #63b045 16%, #77d353 76%, #63b045 100%);
+
+    --rm-font-size: 0.875rem;
+    --sm-font-size: 0.85rem;
+  }
+
+  #_2iAdU ._R2FsI img {
+    width: 4rem;
+    padding: 0.5rem;
+    margin-left: 2rem;
+  }
+
+  #_2iAdU ._3Kbya a {
+    content: 'hola' !important;
+    margin-left: auto;
+    margin-right: 2rem;
+    transition: all var(--tspeed) ease-in-out;
+  }
+
+  #_2iAdU ._2trtS > ul > li:nth-child(4) {
+    margin-left: auto;
+  }
+
+  #_2iAdU ._2trtS {
+    width: 100%;
+  }
+
+  #_2iAdU svg {
+    margin: 0 0.5rem 0 0;
+}
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #_2iAdU ._2trtS > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-left: -6.5rem;
+  }
+  #_2iAdU {
+    width: -moz-fit-content;
+    margin-left: -4em;
+  }
+  #_2iAdU > div {
+    padding: -1rem;
+  }
+  #_2iAdU ._R2FsI img {
+    visibility: hidden;
+  }
+
+  :root {
+    --pcol: #63b045;
+    --scol: white;
+    --tspeed: 0.5s;
+    --base-scale: 1.1;
+    --subMenu-width: 12.25rem;
+
+    --fgrad: linear-gradient(139deg, #63b045 16%, #77d353 52%, #63b045 88%);
+    --sgrad: linear-gradient(139deg, #63b045 16%, #77d353 76%, #63b045 100%);
+
+    --rm-font-size: 0.875rem;
+    --sm-font-size: 0.85rem;
+  }
+
+  #_2iAdU ._R2FsI img {
+    width: 4rem;
+    padding: 0.5rem;
+  }
+
+  #_2iAdU::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--sgrad);
+    z-index: -1;
+    transition: opacity var(--tspeed) linear;
+    opacity: 0;
+    width: fit-content;
+  }
+
+  #_2iAdU ._2trtS > ul > li:hover > ._3D598 {
+    display: block;
+    width: 10rem;
+  }
+
+  #_2iAdU ._3D598 > ul > li > a,
+  #_2iAdU ._1JYcn > ul > li > a {
+    font-size: 1em;
+  }
+
+  #_2iAdU ._2trtS > ul > li:nth-child(4) {
+    margin-left: auto;
+  }
+
+  #_2iAdU ._2trtS {
+    width: 100%;
+    padding-right: 1em;
+  }
+}

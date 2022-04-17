@@ -1,0 +1,102 @@
+p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: x-large;
+    font-size: 17px;
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Inputs */
+.input-style {
+    border: 2px solid #77d353;
+    height: 40px;
+    font-size: 17px;
+    font-style: italic;
+    color: gray;
+    outline: none;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.form-control {
+    border: 2px solid #77d353;
+    height: 40px;
+    font-size: 17px;
+    font-style: italic;
+    color: gray;
+    outline: none;
+    text-align: center;
+}
+
+@media(min-width: 769px){
+    #recovery_mobile {
+        display: none;
+    }
+
+    #recovery_desktop {        
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        background-color: #fff;
+    }   
+    input[type="submit"] {
+        border: 2px solid #77d353;
+        color: white;
+        font-size: 17px;
+        font-style: italic;
+        border-radius: 30px;
+    }
+
+}
+
+@media(max-width: 768px){
+    #recovery_desktop {
+        display: none;
+    }
+
+    #recovery_mobile {        
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        background-color: #fff;
+    }   
+    input[type="submit"] {
+        border: 2px solid #77d353;
+        color: white;
+        font-size: 17px;
+        font-style: italic;
+        border-radius: 30px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #recovery_desktop {
+      display: none;
+    }
+  
+    #recovery_mobile {      
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100vh;
+      background-color: #fff;
+    }
+  
+    input[type="submit"] {
+      border: 2px solid #77d353;
+      color: white;
+      font-size: 17px;
+      font-style: italic;
+      border-radius: 30px;
+    }
+  }
+  

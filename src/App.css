@@ -1,0 +1,133 @@
+#addhome {
+  border: 2px solid #000;
+}
+
+#containerComida {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.links-comida {
+  margin: auto 5%;
+}
+.card-text {
+  text-align: center;
+}
+#edit {
+  fill: #fff;
+  background-color: #19cc95;
+  border-radius: 85%;
+  width: 2.1rem;
+  height: 2rem;
+}
+#delete {
+  background-color: #fff;
+  fill: #d7576a;
+  border-radius: 85%;
+  width: 2.1rem;
+  height: 2rem;
+}
+.card-img-top {
+  padding: 1rem 1rem;
+}
+.card {
+  text-align: center;
+}
+.card-body {
+  padding-top: 0.15rem;
+}
+#addimg {
+  height: 90%;
+  object-fit: contain;
+  width: auto;
+}
+
+#img-add {
+  height: 315px;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.form-group > * {
+  display: inline-block;
+}
+
+.form-group #inpnom {
+  width: 70%;
+  margin-left: 6rem;
+}
+
+.form-group #inpcat {
+  width: 60%;
+  margin-left: 4rem;
+}
+
+.form-check {
+  display: inline-block;
+  margin: auto 1rem;
+}
+
+#estado-radio {
+  margin-left: 5.25rem;
+}
+
+.form-group > #macro {
+  width: 70%;
+  margin-left: 2.5rem;
+  height: 10rem;
+  resize: none;
+}
+
+#nutrients {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#energia {
+  width: 30%;
+  margin-left: 2.5rem;
+}
+
+#prec {
+  width: 30%;
+  margin-left: 7rem;
+}
+
+#title {
+  position: relative;
+  left: -1rem;
+  display: inline-block;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  color: #25d366;
+}
+
+/* #addfoot {
+  background-color: #35682d;
+  height: 5rem;
+  text-align: center;
+} */
+
+/* .addbuts {
+  margin: 1.5rem 4rem;
+} */
+
+/* .addfoot button {
+  background-color: #25d366;
+} */
+
+.iconplus {
+  margin-left: 0.3rem;
+}
+
+.card-img-top {
+  height: 240px;
+}
+
+.card {
+  border: 1px solid #000000;
+}

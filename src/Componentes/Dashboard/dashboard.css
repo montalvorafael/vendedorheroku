@@ -1,0 +1,53 @@
+.graficos {
+  padding: 25px;
+  height: 450px;
+}
+
+.dropButton {
+  background-color: #63b045 !important;
+  border-color: #63b045 !important;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.pdf_button {
+  margin: 4px !important;
+  background-color: #63b045 !important;
+  color: #fff;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  position: relative;
+  height: 32px;
+  width: 38px;
+}
+
+.pdf_button_container {
+  z-index: 1000002;
+  width: fit-content;
+  background-color: transparent !important;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0px;
+}
+
+.pdf_button:hover {
+  background-color: #4c8735 !important;
+  transition: 0.1s;
+}
+
+#export-button {
+  font-weight: bold;
+  font-style: normal;
+  color: #77d353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.export {
+  display: flex;
+  align-items: center;
+}

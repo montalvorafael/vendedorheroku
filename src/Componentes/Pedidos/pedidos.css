@@ -1,0 +1,30 @@
+.font-size-lg {
+  font-size: 20px;
+}
+.align-bottom-content {
+  align-content: flex-end;
+}
+.align-top-content {
+  align-content: flex-start;
+}
+.btn-jamasana {
+  background-color: #63b045;
+  border: none;
+}
+.btn-jamasana:hover {
+  background-color: #4c8735;
+  border: none;
+}
+.btn-jamasana:focus {
+  background-color: #4c8735;
+  border: none;
+}
+.input-pedidos {
+  border: 2px solid #77d353;
+  outline: none;
+  text-align: center;
+  font-style: italic;
+}
+.w-90{
+	width: 90%;
+}
